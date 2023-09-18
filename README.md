@@ -65,7 +65,7 @@ pry(main)> race.office
 => "Texas Governor"
 
 pry(main)> race.candidates
-=> []
+=> [] 
 
 pry(main)> candidate1 = race.register_candidate!({name: "Diana D", party: :democrat})
 => #<Candidate:0x00007f9edf376c90...>
